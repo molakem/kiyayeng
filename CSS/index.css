@@ -35,15 +35,21 @@ body{
     text-align: center;
     font-weight: 600;
 }
+#dropdown-1, #dropdown-2{
+    outline: none;
+    border: none;
+}
 .container{
     /* background-color: black; */
     border: 1px solid cyan;
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    column-gap: 3rem;
     align-items: center;
     padding: 0 10px;
 }
 .container-1{
     padding: 0 8px;
     margin-left: 30px ;
+    /* background-color: black; */
 }
